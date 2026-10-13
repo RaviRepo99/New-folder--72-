@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Public Scam Alert & Exposure Notice regarding Chiranjivi Kharel (Bullet Boss) - Chitwan." />
+    <meta name="theme-color" content="#09090b" />
+    <title>BULLET BOSS EXPOSED | CHIRANJIVI KHAREL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      :root { color-scheme: dark; font-family: "Manrope", sans-serif; }
+      body {
+        background: radial-gradient(ellipse at 50% 0%, rgba(127, 29, 29, 0.35), transparent 50rem), #09090b;
+      }
+      .mono { font-family: "DM Mono", monospace; }
+      .grid-bg {
+        background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                          linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+        background-size: 48px 48px;
+        mask-image: linear-gradient(to bottom, black, transparent 90%);
+      }
+
+      /* GLITCH */
+      @keyframes glitch {
+        0%   { text-shadow: 3px 0 #ef4444, -3px 0 #3b82f6; transform: translate(0); }
+        15%  { text-shadow: -3px 0 #ef4444, 3px 0 #3b82f6; transform: translate(-3px, 2px); }
+        30%  { text-shadow: 3px 0 #ef4444, -3px 0 #3b82f6; transform: translate(3px, -2px); }
+        45%  { text-shadow: -2px 0 #ef4444, 2px 0 #3b82f6; transform: translate(-2px, 3px); }
+        60%  { text-shadow: 2px 0 #ef4444, -2px 0 #3b82f6; transform: translate(2px, -3px); }
+        75%  { text-shadow: -1px 0 #ef4444, 1px 0 #3b82f6; transform: translate(-1px, 1px); }
+        100% { text-shadow: 3px 0 #ef4444, -3px 0 #3b82f6; transform: translate(0); }
+      }
+      .glitch { animation: glitch 1.2s infinite; }
+
+      @keyframes glitch-strong {
+        0%   { text-shadow: 4px 0 #ef4444, -4px 0 #3b82f6; }
+        20%  { text-shadow: -4px 0 #ef4444, 4px 0 #3b82f6; }
+        40%  { text-shadow: 4px 0 #ef4444, -4px 0 #3b82f6; }
+        60%  { text-shadow: -3px 0 #ef4444, 3px 0 #3b82f6; }
+        80%  { text-shadow: 3px 0 #ef4444, -3px 0 #3b82f6; }
+        100% { text-shadow: 4px 0 #ef4444, -4px 0 #3b82f6; }
+      }
+      .glitch-strong { animation: glitch-strong 1.8s infinite; }
+
+      /* Soft fade (no opacity:0 problem) */
+      @keyframes softFade {
+        from { opacity: 0.4; transform: translateY(20px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .soft-fade {
+        animation: softFade 0.7s ease-out forwards;
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50%      { transform: translateY(-8px); }
+      }
+      .float-card:hover {
+        animation: float 2.2s ease-in-out infinite;
+      }
+
+      @keyframes pulse-glow {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.55); }
+        50%      { box-shadow: 0 0 0 14px rgba(239, 68, 68, 0); }
+      }
+      .pulse-glow { animation: pulse-glow 2s infinite; }
+
+      @keyframes border-glow {
+        0%, 100% { border-color: rgba(239, 68, 68, 0.4); }
+        50%      { border-color: rgba(239, 68, 68, 0.9); }
+      }
+      .border-glow { animation: border-glow 2.5s infinite; }
+
+      @keyframes popupIn {
+        0%   { opacity: 0; transform: scale(0.65) translateY(30px); }
+        100% { opacity: 1; transform: scale(1) translateY(0); }
+      }
+      .popup-enter { animation: popupIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+      video { background: #000; }
+    </style>
+  </head>
+  <body class="min-h-screen text-zinc-100 antialiased selection:bg-red-500/30">
+    <div class="grid-bg pointer-events-none fixed inset-0 -z-10" aria-hidden="true"></div>
+
+    <!-- ==================== WARNING POPUP ==================== -->
+    <div id="warningPopup" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 backdrop-blur-md">
+      <div class="popup-enter relative w-full max-w-lg rounded-2xl border-2 border-red-500 bg-zinc-950 p-6 shadow-2xl shadow-red-900/70 sm:p-8 pulse-glow">
+        <button onclick="closeWarningPopup()" 
+                class="absolute -right-3 -top-3 flex h-11 w-11 items-center justify-center rounded-full bg-red-600 text-xl font-bold text-white shadow-lg transition hover:bg-red-500 hover:scale-110">
+          ✕
+        </button>
+
+        <div class="text-center">
+          <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red-600/30 text-4xl">⚠️</div>
+          <h2 class="glitch mb-4 text-xl font-extrabold tracking-wide text-red-400 sm:text-2xl">
+            FINAL WARNING — BULLET BOSS
+          </h2>
+          <p class="mb-6 text-sm leading-relaxed text-zinc-200 sm:text-base">
+            Chiranjivi Kharel, return my <span class="font-bold text-red-400">NPR 14 lakh</span> and clear this matter, or I’ll take legal action and expose the facts across Nepal.<br><br>
+            <span class="font-semibold text-white">The choice is yours.</span>
+          </p>
+          <p class="text-[11px] text-zinc-500">Click ✕ to close</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Banner -->
+    <div class="border-b border-red-500/40 bg-red-950/90 px-4 py-3.5 text-center backdrop-blur-md">
+      <p class="mono text-[11px] font-medium uppercase tracking-[0.2em] text-red-200 sm:text-xs">
+        ⚠ PUBLIC SCAM ALERT: CHIRANJIVI KHAREL (BULLET BOSS) ⚠
+      </p>
+    </div>
+
+    <main class="mx-auto max-w-6xl px-4 pb-20 pt-12 sm:px-6 sm:pt-16 lg:px-8">
+
+      <!-- HERO -->
+      <header class="mx-auto max-w-4xl text-center soft-fade">
+        <p class="mono mb-4 text-[11px] uppercase tracking-[0.25em] text-red-400 sm:text-xs">
+          Exposing Financial Fraud • 200+ Victims • 14 Lakhs Recovery
+        </p>
+
+        <h1 class="text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
+          <span class="glitch-strong block text-white">Chiranjivi Kharel</span>
+          <span class="mt-2 block text-red-500">(Bullet Boss)</span>
+          <span class="mt-3 block text-2xl font-bold text-zinc-300 sm:text-3xl">EXPOSED</span>
+        </h1>
+
+        <p class="mx-auto mt-6 max-w-2xl text-base leading-7 text-zinc-400 sm:text-lg">
+          If my <span class="font-bold text-red-400">14 Lakhs NPR</span> is not returned and claims for 200+ victims are not resolved, this warning will be amplified into a nationwide public campaign across Nepal.
+        </p>
+
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <span class="rounded-full border border-red-500/50 bg-red-950/60 px-4 py-1.5 text-xs font-bold text-red-300">14 LAKHS PENDING</span>
+          <span class="rounded-full border border-red-500/50 bg-red-950/60 px-4 py-1.5 text-xs font-bold text-red-300">200+ VICTIMS</span>
+          <span class="rounded-full border border-red-500/50 bg-red-950/60 px-4 py-1.5 text-xs font-bold text-red-300">CHITWAN, NEPAL</span>
+        </div>
+      </header>
+
+      <!-- ========== GALLERY (Always Visible) ========== -->
+      <section class="mt-16 rounded-2xl border border-white/10 bg-zinc-900/80 p-5 sm:p-8 border-glow">
+        <div class="mb-6 flex flex-col gap-3 border-b border-white/10 pb-5 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p class="mono text-[10px] uppercase tracking-[0.16em] text-red-400 sm:text-xs">EVIDENCE & RECORDS</p>
+            <h2 class="mt-1.5 text-xl font-bold text-white sm:text-2xl lg:text-3xl">Photographic & Video Gallery</h2>
+          </div>
+          <p class="max-w-md text-xs text-zinc-400">Click any photo to view full size</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
+          <!-- Image 1 -->
+          <div onclick="openModal('IMG/CHIRAAAN.jpeg', 'Chiranjivi Kharel', 'Suspect photo')"
+               class="float-card group relative cursor-pointer overflow-hidden rounded-xl border border-red-500/50 bg-zinc-950 transition hover:border-red-400 hover:shadow-xl hover:shadow-red-950/50">
+            <div class="aspect-square overflow-hidden">
+              <img src="IMG/CHIRAAAN.jpeg" alt="Chiranjivi Kharel" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" />
+            </div>
+            <div class="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/95 via-black/40 to-transparent p-3">
+              <span class="mb-1 w-max rounded bg-red-600 px-2 py-0.5 text-[10px] font-bold uppercase text-white">Photo</span>
+              <h3 class="text-sm font-bold">CHIRAAN.jpeg</h3>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div onclick="openModal('IMG/CHIRAANNS.jpeg', 'Chiranjivi Kharel', 'Suspect photo')"
+               class="float-card group relative cursor-pointer overflow-hidden rounded-xl border border-white/10 bg-zinc-950 transition hover:border-red-500/70">
+            <div class="aspect-square overflow-hidden">
+              <img src="IMG/CHIRAANNS.jpeg" alt="Chiranjivi" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" />
+            </div>
+            <div class="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/95 via-black/40 to-transparent p-3">
+              <span class="mb-1 w-max rounded bg-red-600 px-2 py-0.5 text-[10px] font-bold uppercase text-white">Photo</span>
+              <h3 class="text-sm font-bold">CHIRANNS.jpeg</h3>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div onclick="openModal('IMG/CHIRAN.jpg', 'Chiranjivi Kharel', 'Suspect photo')"
+               class="float-card group relative cursor-pointer overflow-hidden rounded-xl border border-white/10 bg-zinc-950 transition hover:border-red-500/70">
+            <div class="aspect-square overflow-hidden">
+              <img src="IMG/CHIRAN.jpg" alt="Chiranjivi" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" />
+            </div>
+            <div class="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/95 via-black/40 to-transparent p-3">
+              <span class="mb-1 w-max rounded bg-red-600 px-2 py-0.5 text-[10px] font-bold uppercase text-white">Photo</span>
+              <h3 class="text-sm font-bold">CHIRAN.jpg</h3>
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div onclick="openModal('IMG/CHIRANNN.jpeg', 'Chiranjivi Kharel', 'Suspect photo')"
+               class="float-card group relative cursor-pointer overflow-hidden rounded-xl border border-white/10 bg-zinc-950 transition hover:border-red-500/70">
+            <div class="aspect-square overflow-hidden">
+              <img src="IMG/CHIRANNN.jpeg" alt="Chiranjivi" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" />
+            </div>
+            <div class="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/95 via-black/40 to-transparent p-3">
+              <span class="mb-1 w-max rounded bg-red-600 px-2 py-0.5 text-[10px] font-bold uppercase text-white">Photo</span>
+              <h3 class="text-sm font-bold">CHIRANNN.jpeg</h3>
+            </div>
+          </div>
+
+          <!-- Image 5 -->
+          <div onclick="openModal('IMG/CHIRANNNNN.jpeg', 'Chiranjivi Kharel', 'Suspect photo')"
+               class="float-card group relative cursor-pointer overflow-hidden rounded-xl border border-white/10 bg-zinc-950 transition hover:border-red-500/70">
+            <div class="aspect-square overflow-hidden">
+              <img src="IMG/CHIRANNNNN.jpeg" alt="Chiranjivi" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" />
+            </div>
+            <div class="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/95 via-black/40 to-transparent p-3">
+              <span class="mb-1 w-max rounded bg-red-600 px-2 py-0.5 text-[10px] font-bold uppercase text-white">Photo</span>
+              <h3 class="text-sm font-bold">CHIRANNNNN.jpeg</h3>
+            </div>
+          </div>
+
+          <!-- Image 6 -->
+          <div onclick="openModal('IMG/CHIRANNNNSS.jpeg', 'Chiranjivi Kharel', 'Suspect photo')"
+               class="float-card group relative cursor-pointer overflow-hidden rounded-xl border border-white/10 bg-zinc-950 transition hover:border-red-500/70">
+            <div class="aspect-square overflow-hidden">
+              <img src="IMG/CHIRANNNNSS.jpeg" alt="Chiranjivi" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" />
+            </div>
+            <div class="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/95 via-black/40 to-transparent p-3">
+              <span class="mb-1 w-max rounded bg-red-600 px-2 py-0.5 text-[10px] font-bold uppercase text-white">Photo</span>
+              <h3 class="text-sm font-bold">CHIRANNNNSS.jpeg</h3>
+            </div>
+          </div>
+
+          <!-- Video 1 -->
+          <div class="float-card group relative overflow-hidden rounded-xl border border-sky-500/50 bg-zinc-950">
+            <div class="aspect-square">
+              <video controls class="h-full w-full object-cover">
+                <source src="IMG/chiranjivi2.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 to-transparent p-3">
+              <span class="mb-1 inline-block rounded bg-sky-600 px-2 py-0.5 text-[10px] font-bold uppercase text-white">Video</span>
+              <h3 class="text-sm font-bold">chiranjivi2.mp4</h3>
+            </div>
+          </div>
+
+          <!-- Video 2 -->
+          <div class="float-card group relative overflow-hidden rounded-xl border border-sky-500/50 bg-zinc-950">
+            <div class="aspect-square">
+              <video controls class="h-full w-full object-cover">
+                <source src="IMG/chiranjivi3.mp4.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 to-transparent p-3">
+              <span class="mb-1 inline-block rounded bg-sky-600 px-2 py-0.5 text-[10px] font-bold uppercase text-white">Video</span>
+              <h3 class="text-sm font-bold">chiranjivi3.mp4.mp4</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOIN TELEGRAM -->
+      <section class="mt-12 text-center">
+        <a href="https://t.me/bulletbetnepal" target="_blank" rel="noopener"
+           class="inline-flex items-center gap-3 rounded-2xl border border-sky-500/50 bg-sky-950/50 px-7 py-4 text-sm font-bold text-sky-300 transition hover:border-sky-400 hover:bg-sky-900/60 hover:text-white hover:scale-105 sm:text-base">
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.14.141-.357.309-.72.309l.257-3.648 6.616-5.976c.288-.258-.063-.402-.445-.145l-8.176 5.15-3.52-1.102c-.765-.24-.78-.765.16-1.134l13.75-5.304c.637-.24 1.195.15 1.01 1.088z"/></svg>
+          JOIN TELEGRAM FOR MORE UPDATES
+        </a>
+      </section>
+
+      <!-- Ultimatum -->
+      <section class="mx-auto mt-10 max-w-4xl rounded-2xl border-2 border-red-500/50 bg-red-950/30 p-6 sm:p-8 pulse-glow">
+        <div class="flex gap-4">
+          <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-red-400/40 bg-red-500/20 text-2xl font-bold text-red-300">!</div>
+          <div>
+            <h2 class="text-lg font-bold text-white sm:text-xl">Final Ultimatum to Chiranjivi Kharel</h2>
+            <p class="mt-2 text-sm leading-7 text-zinc-300">
+              Pay back the <strong class="text-red-400">14 Lakhs NPR</strong> immediately and resolve all pending claims for 200+ victims. Failure to do so will result in high-budget digital ads exposing these actions across all major platforms in Nepal.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3 Steps -->
+      <section class="mt-10 grid gap-5 md:grid-cols-3">
+        <article class="float-card rounded-2xl border border-white/10 bg-zinc-900/80 p-6 transition hover:border-red-500/50">
+          <p class="mono text-[10px] uppercase tracking-[0.16em] text-red-400">01 / Preserve</p>
+          <h2 class="mt-3 text-lg font-bold">Gather Receipt Evidence</h2>
+          <p class="mt-2 text-sm text-zinc-400">Keep all bank statements, digital wallet screenshots, transaction IDs, and chat logs ready.</p>
+        </article>
+        <article class="float-card rounded-2xl border border-white/10 bg-zinc-900/80 p-6 transition hover:border-red-500/50">
+          <p class="mono text-[10px] uppercase tracking-[0.16em] text-red-400">02 / Secure</p>
+          <h2 class="mt-3 text-lg font-bold">Join 200+ Scammed Victims</h2>
+          <p class="mt-2 text-sm text-zinc-400">Connect with other victims to present a solid collective case.</p>
+        </article>
+        <article class="float-card rounded-2xl border border-white/10 bg-zinc-900/80 p-6 transition hover:border-red-500/50">
+          <p class="mono text-[10px] uppercase tracking-[0.16em] text-red-400">03 / Report</p>
+          <h2 class="mt-3 text-lg font-bold">Nationwide Campaign & Legal Action</h2>
+          <p class="mt-2 text-sm text-zinc-400">Evidence will be submitted to Nepal Police Cyber Bureau + high-budget ads.</p>
+        </article>
+      </section>
+
+      <!-- Checklist -->
+      <section class="mt-10 rounded-2xl border border-white/10 bg-zinc-900/70 p-6 sm:p-9">
+        <div class="grid gap-8 md:grid-cols-[1fr_0.9fr] md:items-center">
+          <div>
+            <p class="mono text-[10px] uppercase tracking-[0.16em] text-zinc-500">ULTIMATUM NOTICE</p>
+            <h2 class="mt-2 text-xl font-bold sm:text-2xl">Chiranjivi Kharel (Bullet Boss) Exposure Case</h2>
+            <ul class="mt-6 space-y-3 text-sm text-zinc-300">
+              <li class="flex gap-3"><span class="font-bold text-red-400">✓</span> <span><strong>14 Lakhs NPR Pending</strong></span></li>
+              <li class="flex gap-3"><span class="font-bold text-red-400">✓</span> <span><strong>200+ Victims Affected</strong></span></li>
+              <li class="flex gap-3"><span class="font-bold text-red-400">✓</span> <span><strong>Origin:</strong> Chitwan, Nepal</span></li>
+              <li class="flex gap-3"><span class="font-bold text-red-400">✓</span> <span><strong>Deadline:</strong> Immediate settlement required</span></li>
+            </ul>
+          </div>
+          <aside class="rounded-xl border border-red-500/30 bg-black/50 p-6">
+            <p class="mono text-[10px] uppercase tracking-[0.16em] text-red-400">VICTIM SOLIDARITY</p>
+            <h3 class="mt-2 text-base font-bold">Submit Proof / Join Victims Group</h3>
+            <p class="mt-2 text-sm text-zinc-400">Are you also scammed by Bullet Boss? Submit your receipts.</p>
+            <a href="https://t.me/bulletbetnepal" target="_blank" rel="noopener"
+               class="mt-5 inline-flex items-center gap-2 rounded-lg bg-red-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-red-500 hover:scale-105">
+              Join Victims Group ↗
+            </a>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Quote -->
+      <section class="mx-auto mt-14 max-w-3xl text-center">
+        <blockquote class="border-l-4 border-red-600 py-2 pl-5 text-left text-lg font-bold leading-relaxed text-zinc-100 sm:border-l-0 sm:pl-0 sm:text-center sm:text-xl lg:text-2xl">
+          “Mero 14 Lakhs pura nadiya samma yo abhiyan rokine chhaina. Mero hisab pachhyaut nagaresamma, digital ads marphat nepal bhari sabailai timro barema tha hune gari exposed garera chhadchhu.”
+        </blockquote>
+        <p class="mono mt-5 text-[11px] uppercase tracking-[0.2em] text-zinc-500">Preserve records · Seek help · Report responsibly</p>
+      </section>
+    </main>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/95 p-4 backdrop-blur-md" onclick="closeModal()">
+      <div class="relative w-full max-w-4xl rounded-2xl border border-zinc-700 bg-zinc-950 p-4 shadow-2xl" onclick="event.stopPropagation()">
+        <button onclick="closeModal()" 
+                class="absolute -right-3 -top-3 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-red-600 text-xl font-bold text-white shadow-lg transition hover:bg-red-500 hover:scale-110">
+          ✕
+        </button>
+        <div class="overflow-hidden rounded-xl border border-zinc-800 bg-black">
+          <img id="modalImage" src="" alt="Full size" class="mx-auto max-h-[80vh] w-full object-contain" />
+        </div>
+        <div class="mt-3 px-1 text-center">
+          <h3 id="modalTitle" class="text-base font-bold text-white"></h3>
+          <p id="modalDesc" class="mt-1 text-xs text-zinc-400"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="border-t border-white/10 px-4 py-8 text-center">
+      <p class="mx-auto max-w-3xl text-[11px] leading-5 text-zinc-500">
+        This independent page provides general public-awareness and victim-support information. It is not a formal complaint, legal advice, or an official Nepal Police website.
+      </p>
+    </footer>
+
+    <script>
+      function closeWarningPopup() {
+        const popup = document.getElementById('warningPopup');
+        if (!popup) return;
+        popup.style.opacity = '0';
+        popup.style.transition = 'opacity 0.4s ease';
+        setTimeout(() => popup.style.display = 'none', 400);
+      }
+
+      function openModal(src, title, desc) {
+        document.getElementById('modalImage').src = src;
+        document.getElementById('modalTitle').innerText = title;
+        document.getElementById('modalDesc').innerText = desc;
+        const modal = document.getElementById('imageModal');
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+
+      function closeModal() {
+        const modal = document.getElementById('imageModal');
+        modal.classList.remove('flex');
+        modal.classList.add('hidden');
+      }
+
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+          closeModal();
+          closeWarningPopup();
+        }
+      });
+    </script>
+  </body>
+</html>
